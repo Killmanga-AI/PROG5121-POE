@@ -1,0 +1,70 @@
+# Compiled class files
+*.class
+
+# Jar, War, Ear files (build artifacts)
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven build output
+target/
+
+# Gradle build output
+.gradle/
+build/
+
+# NetBeans IDE files
+nbproject/
+
+# Eclipse IDE files
+.settings/
+.classpath
+.project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+~$*
+
+# IntelliJ local history
+.local_history/
+
+# Test output directories (if any)
+test-output/
+
+# Executable files (if any - adjust as needed)
+*.exe
+*.dll
+
+# Package lock files (if using npm/yarn for frontend)
+package-lock.json
+yarn.lock
+node_modules/
+
+# Python specific (if relevant)
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+
+# Environment files (if relevant)
+.env
+.env.*
+!.env.example
+
+# Other IDE or tool specific files (add as needed)
+.vscode/
