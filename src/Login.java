@@ -107,6 +107,7 @@ public class Login {
      * @param cellphoneNumber The cellphone number string to validate.
      * @return true if the cellphone number format is potentially valid, false otherwise.
      */
+    //Regex pattern inspired by ChatGPT (OpenAI,2024)
     public static boolean isValidCellphoneNumberInternational(String cellphoneNumber) {
         // Check if the string is not null or empty, matches the pattern of digits and/or '+', and has at least 8 characters
         return cellphoneNumber != null && cellphoneNumber.matches("^[0-9+]+$") && cellphoneNumber.length() >= 8;
@@ -148,5 +149,6 @@ public class Login {
         }
         // Return true only if all the required character types are present
         return hasUpper && hasLower && hasDigit && hasSpecial;
+
     }
 }

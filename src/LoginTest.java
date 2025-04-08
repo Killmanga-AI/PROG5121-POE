@@ -31,7 +31,7 @@ public class LoginTest {
 
     @Test
     void testWeakPassword() {
-        assertFalse(Login.isStrongPasswordEnhanced("weakpass"));
+        assertFalse(Login.isStrongPasswordEnhanced("weakness"));
     }
 }
 
