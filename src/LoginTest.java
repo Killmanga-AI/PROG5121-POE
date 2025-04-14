@@ -5,33 +5,33 @@ public class LoginTest {
 
     @Test
     void testValidUsername() {
-        assertTrue(Login.isValidUsernameEnhanced("ben_1"));
+        assertTrue(Login.isValidUsernameEnhanced("kyl_1"));
     }
 
     @Test
     void testInvalidUsername() {
-        assertFalse(Login.isValidUsernameEnhanced("invalid_user"));
+        assertFalse(Login.isValidUsernameEnhanced("kyle!!!!!!"));
     }
 
     @Test
 
     void testValidCellphone() {
-        assertTrue(Login.isValidCellphoneNumberInternational("+27812345678"));
+        assertTrue(Login.isValidCellphoneNumberInternational("+27838968976"));
     }
 
     @Test
     void testInvalidCellphone() {
-        assertFalse(Login.isValidCellphoneNumberInternational("12345"));
+        assertFalse(Login.isValidCellphoneNumberInternational("08966553"));
     }
 
     @Test
     void testStrongPassword() {
-        assertTrue(Login.isStrongPasswordEnhanced("Pass123!"));
+        assertTrue(Login.isStrongPasswordEnhanced("Ch&&sec@ke99!"));
     }
 
     @Test
     void testWeakPassword() {
-        assertFalse(Login.isStrongPasswordEnhanced("weakness"));
+        assertFalse(Login.isStrongPasswordEnhanced("password"));
     }
 }
 

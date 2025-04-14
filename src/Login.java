@@ -37,7 +37,7 @@ public class Login {
         // Loop until a valid cellphone number is entered
         while (!cellphoneValid) {
             // Prompt the user to enter their cellphone number using an input dialog
-            cellphoneNumber = JOptionPane.showInputDialog(null, "Enter your cellphone number (starting with country code, >= 8 digits):");
+            cellphoneNumber = JOptionPane.showInputDialog(null, "Enter your cellphone number (starting with country code, >= 9 digits):");
 
             // Check if the user provided input (didn't cancel)
             if (cellphoneNumber == null) {
@@ -110,7 +110,7 @@ public class Login {
     //Regex pattern inspired by ChatGPT (OpenAI,2024)
     public static boolean isValidCellphoneNumberInternational(String cellphoneNumber) {
         // Check if the string is not null or empty, matches the pattern of digits and/or '+', and has at least 8 characters
-        return cellphoneNumber != null && cellphoneNumber.matches("^[0-9+]+$") && cellphoneNumber.length() >= 8;
+        return cellphoneNumber != null && cellphoneNumber.matches("^[0-9+]+$") && cellphoneNumber.length() >= 9;
     }
 
     /**
