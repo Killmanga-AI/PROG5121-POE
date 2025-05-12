@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/POE.iml" filepath="$PROJECT_DIR$/POE.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/PROG5121-POE-PART1.iml" filepath="$PROJECT_DIR$/.idea/PROG5121-POE-PART1.iml" />
+>>>>>>> 6f99d36becbe964086c9d8fc26c03e6e225494da
     </modules>
   </component>
 </project>
