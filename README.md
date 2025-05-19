@@ -15,5 +15,5 @@ Full citations available in [REFERENCES.md] (REFERENCES.md)
 ## How to Run
 1. Clone repository:
 ```bash
-git clone https://github.com/Killmanga-AI/PROG5121-POE-PART1.git
+git clone https://github.com/Killmanga-AI/PROG5121-POE.git
 
